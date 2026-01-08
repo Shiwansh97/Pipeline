@@ -53,7 +53,7 @@ def run_pipeline(file_path: str, table_name: str):
 
 
 if __name__ == "__main__":
-    FILE_PATH = "data/sample.csv"   # change file here
+    FILE_PATH = "D:\Pipeline\data\source_dir\query-hive-148987.xlsx"  # change file here
     TABLE_NAME = "sample_data"      # postgres table name
 
     run_pipeline(FILE_PATH, TABLE_NAME)
